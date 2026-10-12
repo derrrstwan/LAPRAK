@@ -61,9 +61,74 @@ html {
 }
 
 
+
 /* =========================
    TOMBOL MENU 3 GARIS
-   ========================= */
+========================= */
+.intro {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    z-index: 9999;
+    overflow: hidden;
+    animation: introHilang 1s ease 2s forwards;
+}
+
+.intro img {
+    width: 11%;
+    height: 20%;
+    object-fit: cover;
+    animation: zoomMasuk 2s ease forwards;
+    margin-left: 25%;
+    margin-top: 18%;
+}
+
+.p-1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000080;
+    margin-top: -6%;
+    margin-left: 65%;
+    animation: zoomMasuk 2s ease forwards;
+}
+
+.p-2 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 2%;
+    margin-left: 65%;
+    color: #000080;
+    animation: zoomMasuk 2s ease forwards;
+}
+
+@keyframes zoomMasuk {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(2);
+    }
+}
+
+@keyframes introHilang {
+    to {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+}
+
+
+
+
+/* =========================
+   TOMBOL MENU 3 GARIS
+========================= */
 
 .menu-toggle {
     display: none;
@@ -78,7 +143,6 @@ html {
     margin: 6px 0;
     border-radius: 5px;
 }
-
 
 
 

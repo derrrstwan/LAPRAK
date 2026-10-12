@@ -201,3 +201,21 @@ window.addEventListener("resize", function() {
     sebelumnyaHP = sekarangHP;
 
 });
+
+
+
+
+
+
+const intro = document.getElementById("intro");
+const halaman = document.getElementById("halaman");
+
+// Sembunyikan halaman sebelum animasi selesai
+halaman.style.visibility = "hidden";
+
+intro.addEventListener("animationend", function(event) {
+    if (event.animationName === "introHilang") {
+        intro.remove();
+        halaman.style.visibility = "visible";
+    }
+});
