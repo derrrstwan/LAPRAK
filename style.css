@@ -1,0 +1,2144 @@
+body {
+     background: linear-gradient(to right,white);
+     font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* =========================================
+   MENU
+=========================================*/ 
+
+.awal {
+    position: fixed;
+    width: 79.1%;
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 9.9%;
+    margin-top: -180px;
+    z-index: 1000;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.smk4 {
+    position: fixed;
+    width: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.sekolah {
+    position: absolute;
+    top: 22px;
+    left: 90px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.navbar {
+    position: absolute;
+    top: 42px;
+    left: 500px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #4169E1;
+    text-decoration: underline;
+}
+
+
+/* =========================
+   TOMBOL MENU 3 GARIS
+   ========================= */
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    width: 35px;
+}
+
+.menu-toggle span {
+    display: block;
+    height: 3px;
+    background-color: #4169E1;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* =========================================
+   BERANDA
+=========================================*/ 
+
+.otomasi {
+    margin-top: -550px;
+    margin-left: 10px;
+    width: 100%;
+    height: 1090px;
+    border-radius: 10px;
+
+    background-image:
+        linear-gradient(
+            to right,
+            white 30%,
+            #4169E1 50%,
+            transparent
+        ),
+        url(otomasi.png);
+
+    background-size: cover;
+    background-position: center;
+}
+
+.pembuka {
+    color: #0047AB;
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-top: 200px;
+    font-size: 35px;
+}
+
+.teks {
+    color: #4169E1;
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-top: -15px;
+}
+
+.biodata2 {
+    position: relative;
+    width: 610px;
+    left: 70px;
+    top: -460px;
+    z-index: 1;
+}
+
+
+/* =========================================
+   TUJUAN PEMBELAJARAN
+=========================================*/ 
+
+.tujuan {
+    color: #0047AB;
+    margin-left: 10%;
+    margin-top: -100px;
+    font-size: 35px;
+}
+
+
+.kotak {
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 80px;
+}
+
+
+.kotak1 {
+    border:1px solid #4169E1;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin-left: 15%;
+    margin-top: -475px;
+    transition: 0.3s;
+}
+
+.kotak1:hover {
+    transform: scale(1.05);
+}
+
+.kotak1 img {
+    position: relative;
+    width: 100px;
+    top: -180px;
+    left: 10px;
+}
+
+.kotak1 p {
+    color: #4169E1;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+
+.kotak1 h4 {
+    color: #0047AB;
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+.kotak2 {
+    border:1px solid #4169E1;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin-left: 15%;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.kotak2:hover {
+    transform: scale(1.05);
+}
+
+.kotak2 img {
+    position: relative;
+    width: 100px;
+    top: -200px;
+    left: 10px;
+}
+
+.kotak2 p {
+    color: #4169E1;
+    font-size: 20px;
+    margin-left: 13px;
+    margin-top: 13%;
+}
+
+.kotak2 h4 {
+    color: #0047AB;
+    font-size: 25px;
+    margin-left: 120px;
+}
+
+.kotak3 {
+    border:1px solid #4169E1;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin-left: 55%;
+    margin-top: -456.2px;
+    transition: 0.3s;
+}
+
+.kotak3:hover {
+    transform: scale(1.05);
+}
+
+.kotak3 img {
+    position: relative;
+    top: -200px;
+    left: 10px;
+    width: 100px;
+
+}
+
+.kotak3 p {
+    color: #4169E1;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.kotak3 h4 {
+    color: #0047AB;
+    font-size: 25px;
+    margin-left: 120px;
+}
+
+.kotak4 {
+    border:1px solid #4169E1;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    margin-left: 55%;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.kotak4:hover {
+    transform: scale(1.05);
+}
+
+.kotak4 img {
+    position: relative;
+    top: -200px;
+    left: 10px;
+    width: 100px;
+}
+
+.kotak4 p {
+    color:#4169E1;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.kotak4 h4 {
+    color: #0047AB;
+    font-size: 25px;
+    margin-left: 120px;
+}
+
+
+/* =========================================
+   PROFIL PERUSAHAAN
+=========================================*/ 
+
+.profil {
+    font-size: 35px;
+    color: #0047AB;
+    margin-top: 160px;
+    margin-left: 10%;
+}
+
+.kotak5 {
+    width: 80%;
+    height: 620px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+
+
+.kotak6 {
+    border:1px solid #4caf50;
+    border-radius: 20px;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin-left: 12%;
+    margin-top: -590px;
+    transition: 0.3s;
+}
+
+.kotak6:hover {
+    transform: scale(1.03);
+}
+
+.kotak6 img {
+    width: 490px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.kotak7 {
+    border:1px solid #4caf50;
+    border-radius: 20px;
+    background-color: white;
+    width: 550px;
+    height: 400px;
+    margin-left: 49%;
+    margin-top: -400px;
+    transition: 0.3s;
+}
+
+.kotak7:hover {
+    transform: scale(1.03);
+}
+
+.isi {
+    margin-left: 30px;
+    margin-top: 1px;
+    line-height: 80px;
+    color: #2e7d32;
+}
+
+.teks10 {
+    margin-top: -385px;
+    margin-left: 180px;
+    color: #4caf50;
+}
+
+
+.teks11 {
+    margin-left: 180px;
+    margin-top: 60px;
+    color: #4caf50;
+}
+
+.teks12 {
+    margin-left: 180px;
+    margin-top: 63px;
+    color: #4caf50;
+}
+
+.teks13 {
+    margin-left: 180px;
+    margin-top: -10px;
+    color: #4caf50;
+}
+
+.teks14 {
+    margin-left: 180px;
+    margin-top: 25px;
+    color: #4caf50;
+}
+
+.kotak8 {
+    border:1px solid #4caf50;
+    border-radius: 20px;
+    background-color: white;
+    width: 75.5%;
+    height: 150px;
+    margin-left: 12%;
+    margin-top: 20px;
+    transition: 0.3s;
+    background: white;
+}
+
+.kotak8 h4 {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.Produk {
+    color: #2e7d32;
+    font-size: larger;
+}
+
+.kotak8 p {
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.p-produk {
+    color: #4caf50;
+}
+
+.p-produk2 {
+    color: #4caf50;
+    position: relative;
+    left: 360px;
+    top: -98px;
+}
+
+.Gedung10 {
+    position: relative;
+    top: -240.8px;
+    left: 543px;
+    width: 50%;
+    height: 150px;
+    border-radius: 20px;
+
+
+ -webkit-mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 10%,
+        black 70%,
+        black 100%
+    );
+
+    mask-image: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 10%,
+        black 70%,
+        black 100%
+    );
+
+    transition: transform 0.3s ease;
+    
+}
+
+.kotak8:hover .Gedung10 {
+    transform: scale(1.01);
+}
+
+.kotak8:hover {
+    transform: scale(1.03);
+}
+
+
+
+/* =========================================
+   PEMBELAJARAN
+=========================================*/ 
+
+.belajar {
+    color: #0047AB;
+    font-size: 35px;
+    margin-left: 10%;
+    margin-top: 150px;
+}
+
+.kotak10 {
+    position: absolute;
+    width: 79%;
+    height: 600px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.geser {
+    display: none;
+}
+
+/* KOTAK1 */
+.kotak11 {
+    position: absolute;
+    border:1px solid #4169e1;
+    border-radius: 20px;
+    background-color: #EAF6FF;
+    width: 300px;
+    height: 450px;
+    margin-left: 5%;
+    margin-top: 110px;
+}
+
+.kotak111 {
+    position: absolute;
+    border:1px solid #4169E1;
+    border-radius: 20px;
+    background-color: #4169E1;
+    width: 300px;
+    height: 60px;
+    margin-left: 0%;
+    margin-top: -62px;
+}
+
+.mark {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.kotak11 p {
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #4169e1;
+    width: 100%;
+}
+
+.isi1 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+.isi1:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.isi1:hover p {
+    color: white;
+}
+
+.isi2 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi2:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.isi2:hover p {
+    color: white;
+}
+
+.isi3 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi3:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.isi3:hover p {
+    color: white;
+}
+
+.isi4 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi4:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.isi4:hover p {
+    color: white;
+}
+
+.isi5 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi5:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.isi5:hover p {
+    color: white;
+}
+
+.isi6 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi6:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.isi6:hover p {
+    color: white;
+}
+
+
+/* KOTAK2 */
+.kotak12 {
+    position: absolute;
+    border:1px solid #0047AB;
+    border-radius: 20px;
+    background-color: #E8F4F8;
+    width: 300px;
+    height: 450px;
+    margin-left: 36.5%;
+    margin-top: 110px;
+}
+
+.kotak222 {
+    position: absolute;
+    border:1px solid #0047AB;
+    border-radius: 20px;
+    background-color: #0047AB;
+    width: 300px;
+    height: 60px;
+    margin-left: 0%;
+    margin-top: -62px;
+}
+
+.mark1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.kotak12 p {
+    color: #0047AB;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: 0.1s;
+}
+
+.isi7 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+.isi7:hover {
+    transform: scale(1.05);
+    background-color: #0047AB;
+}
+
+.isi7:hover p {
+    color: white;
+}
+
+
+.isi8 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi8:hover {
+    transform: scale(1.05);
+    background-color: #0047AB;
+}
+
+.isi8:hover p {
+    color: white;
+}
+
+.isi9 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi9:hover {
+    transform: scale(1.05);
+    background-color: #0047AB;
+}
+
+.isi9:hover p {
+    color: white;
+}
+
+.isi10 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi10:hover {
+    transform: scale(1.05);
+    background-color: #0047AB;
+}
+
+.isi10:hover p {
+    color: white;
+}
+
+.isi11 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi11:hover {
+    transform: scale(1.05);
+    background-color: #0047AB;
+}
+
+.isi11:hover p {
+    color: white;
+}
+
+.isi12 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi12:hover {
+    transform: scale(1.05);
+    background-color: #0047AB;
+}
+
+.isi12:hover p {
+    color: white;
+}
+
+
+/* KOTAK3 */
+.kotak13 {
+    position: absolute;
+    border:1px solid #4caf50;
+    border-radius: 20px;
+    background-color: #e8f5e9;
+    width: 300px;
+    height: 450px;
+    margin-left: 68%;
+    margin-top: 110px;
+}
+
+.kotak333 {
+    position: absolute;
+    border:1px solid #4caf50;
+    border-radius: 20px;
+    background-color: #4caf50;
+    width: 300px;
+    height: 60px;
+    margin-left: -0%;
+    margin-top: -62px;
+}
+
+.mark2 {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+.kotak13 p {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #4caf50;
+    transition: 0.1s;
+}
+
+
+.isi13 {
+     border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+.isi13:hover {
+    transform: scale(1.05);
+    background-color: #4caf50;
+}
+
+.isi13:hover p {
+    color: white;
+}
+
+.isi14 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.1s;
+}
+
+.isi14:hover {
+    transform: scale(1.05);
+    background-color: #4caf50;
+}
+
+.isi14:hover p {
+    color: white;
+}
+
+.isi15 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.1s;
+}
+
+.isi15:hover {
+    transform: scale(1.05);
+    background-color: #4caf50;
+}
+
+.isi15:hover p {
+    color: white;
+}
+
+.isi16 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi16:hover {
+    transform: scale(1.05);
+    background-color: #4caf50;
+}
+
+.isi16:hover p {
+    color: white;
+}
+
+.isi17 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi17:hover {
+    transform: scale(1.05);
+    background-color: #4caf50;
+}
+
+.isi17:hover p {
+    color: white;
+}
+
+.isi18 {
+    border:0.5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    margin-left: 7.6%;
+    margin-top: 32px;
+    transition: 0.3s;
+}
+
+.isi18:hover {
+    transform: scale(1.05);
+    background-color: #4caf50;
+}
+
+.isi18:hover p {
+    color: white;
+}
+
+
+
+
+/* =========================================
+   DOKUMENTASI
+=========================================*/ 
+
+.dokumen {
+    color: #0047AB;
+    font-size: 35px;
+    margin-top: 770px;
+    margin-left: 10%;
+}
+
+.alas {
+    position: absolute;
+    width: 79%;
+    height: 640px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.titik-foto {
+    display: none;
+}
+
+.alasan,
+.alasan1,
+.alasan2,
+.alasan3,
+.alasan4 {
+    display: block;
+}
+
+
+
+/* FOTO 1 */
+.alasan {
+    border:0.5px solid #4169e1 ;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    margin-left: 3%;
+    margin-top: 255px;
+    transition: 0.3s;
+}
+
+.alasan:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.foto {
+    position: absolute;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 0%;
+    margin-top: -225px;
+}
+
+.p-alasan {
+    color: #4169e1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alasan:hover p {
+    color: white;
+}
+
+/* FOTO 2 */
+.alasan1 {
+    border:0.5px solid #4169e1 ;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    margin-left: 37%;
+    margin-top: -41px;
+    transition: 0.3s;
+}
+
+.alasan1:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.foto1 {
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    margin-top: -225px;
+    margin-left: 0%;
+    border-radius: 10px;
+}
+
+.p-alasan1 {
+    color: #4169e1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alasan1:hover p {
+    color: white;
+}
+
+
+/*  FOTO 3 */
+.alasan2 {
+    border:0.5px solid #4169e1 ;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    margin-left: 71%;
+    margin-top: -41.5px;
+    transition: 0.3s;
+}
+
+.alasan2:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.foto2 {
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    border-radius: 10px;
+    margin-top: -225px;
+}
+
+.p-alasan2 {
+    color: #4169e1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alasan2:hover p {
+    color: white;
+}
+
+
+/* FOTO 4 */
+.alasan3 {
+    border:0.5px solid #4169e1 ;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    margin-left: 3%;
+    margin-top: 269px;
+    transition: 0.3s;
+}
+
+.alasan3:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.foto3 {
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+
+.p-alasan3 {
+    color: #4169e1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alasan3:hover p {
+    color: white;
+}
+
+
+/* FOTO 5 */
+.alasan4 {
+    border:0.5px solid #4169e1 ;
+    border-radius: 5px;
+    background-color: white;
+    width: 300px;
+    height: 40px;
+    margin-left: 37%;
+    margin-top: -41px;
+    transition: 0.3s;
+}
+
+.alasan4:hover {
+    transform: scale(1.05);
+    background-color: #4169e1;
+}
+
+.foto4 {
+    position: absolute;
+    width: 300px;
+    height: 225px;
+    margin-top: -225px;
+    border-radius: 10px;
+}
+
+.p-alasan4 {
+    color: #4169e1;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alasan4:hover p {
+    color: white;
+}
+
+
+/* =========================================
+   REFLEKSI PKL
+=========================================*/
+
+.ref {
+    color: #0047AB;
+    font-size: 35px;
+    margin-top: 810px;
+    margin-left: 10%;
+}
+
+.alasutama {
+    position: absolute;
+    width: 79%;
+    height: 790px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.alasutama p {
+    margin-left: 15%;
+}
+
+.alas3 {
+    position: absolute;
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 12%;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.alas3:hover {
+    transform: scale(1.03);
+}
+
+.foto100 {
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+.p-alas3 {
+    color: #0047AB;
+    font-weight: bolder;
+    margin-top: -70px;
+}
+
+.pp-alas3 {
+    color: #4169e1;
+}
+
+.alas4 {
+    position: absolute;
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 12%;
+    border-radius: 20px;
+    margin-top: 150px;
+    transition: 0.3s;
+}
+
+.alas4:hover {
+    transform: scale(1.03);
+}
+
+.foto200 {
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+.p-alas4 {
+    font-weight: bolder;
+    color: #0047AB;
+    margin-top: -70px;
+}
+
+.pp-alas4 {
+    color: #4169e1;
+}
+
+.alas5 {
+    position: absolute;
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 12%;
+    border-radius: 20px;
+    margin-top: 280px;
+    transition: 0.3s;
+}
+
+.alas5:hover {
+    transform: scale(1.03);
+}
+
+.foto300 {
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+.p-alas5 {
+    font-weight: bolder;
+    color: #0047AB;
+    margin-top: -70px;
+}
+
+.pp-alas5 {
+    color: #4169e1;
+}
+
+.alas6 {
+    position: absolute;
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 12%;
+    border-radius: 20px;
+    margin-top: 410px;
+    transition: 0.3s;
+}
+
+.alas6:hover {
+    transform: scale(1.03);
+}
+
+.foto400 {
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+.p-alas6 {
+    font-weight: bolder;
+    color: #0047AB;
+    margin-top: -70px;
+}
+
+.pp-alas6 {
+    color: #4169e1;
+}
+
+.alas7 {
+    position: absolute;
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 12%;
+    border-radius: 20px;
+    margin-top: 540px;
+    transition: 0.3s;
+}
+
+.alas7:hover {
+    transform: scale(1.03);
+}
+
+.foto500 {
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+.p-alas7 {
+    font-weight: bolder;
+    color: #0047AB;
+    margin-top: -70px;
+}
+
+.pp-alas7 {
+    color: #4169e1;
+}
+
+.alas8 {
+    position: absolute;
+    width: 75%;
+    height: 100px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 12%;
+    border-radius: 20px;
+    margin-top: 670px;
+    transition: 0.3s;
+}
+
+.alas8:hover {
+    transform: scale(1.03);
+}
+
+.foto600 {
+    margin-left: 2%;
+    margin-top: 5px;
+}
+
+.p-alas8 {
+    font-weight: bolder;
+    color: #0047AB;
+    margin-top: -70px;
+}
+
+.pp-alas8 {
+   color: #4169e1;
+}
+
+
+
+
+
+/* =========================================
+   PENUTUP
+=========================================*/
+
+.akhir {
+    position: relative;
+    width: 90%;
+    height: 180px;
+    background-color: white;
+    box-shadow:  0 0 15px rgba(0, 0, 0, 0.5);
+    margin-left: 4.2%;
+    border-radius: 20px;
+    margin-top: 900px;
+    
+}
+
+.penutup1 {
+    color: #0047AB;
+    text-align: center;
+}
+
+.last {
+    text-align: center;
+    color: #4169e1;
+    font-size: 20px;
+}
+
+.kontak {
+    color: #0047AB;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: 78%;
+}
+
+.kata2 {
+    margin-left: 70%;
+    font-size: 15px;
+    margin-top: -10px;
+    color: #4169e1;
+}
+
+.kontak1 {
+    margin-left: 79%;
+    margin-top: -82px;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.kontak2 {
+    display: none;
+}
+
+.email {
+    text-decoration: none;
+    color: #4169e1;
+}
+
+.nohp {
+    text-decoration: none;
+    color: #4169e1;
+    z-index: 100;
+}
+
+.lokasi {
+    text-decoration: none;
+    color: #4169e1;
+}
+
+.medsos1 {
+    display: none;
+}
+
+.media {
+    font-size: 20px;
+    color: #0047AB;
+    margin-top: -100px;
+    margin-left: 13%;
+}
+
+.ig {
+    margin-left: 16%;
+}
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   TAMPILAN HP
+========================================= */
+
+@media screen and (max-width: 700px) {
+    body {
+        max-width: 100%;
+        min-width: 0;
+    }
+
+/* =========================================
+   MENU HP
+=========================================*/
+
+    .awal {
+        width: 80.5%;
+        margin-left: -1px;
+        position: fixed;
+        height: 6%;
+    }
+
+    .smk4 {
+        position: fixed;
+        width: 8%;
+        margin-top: 6px;
+    }
+
+    .sekolah {
+        position: fixed;
+        font-size: 13px;
+        margin-top: 14px;
+        margin-left: -19px;
+    }
+
+
+    /* Tombol 3 garis muncul */
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 6px;
+        z-index: 1001;
+    }
+
+    /* Navbar disembunyikan */
+    .navbar {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 15px;
+
+        width: 220px;
+
+        background-color: white;
+
+        padding: 20px;
+
+        border-radius: 10px;
+
+        box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+        z-index: 1000;
+    }
+
+    .navbar.active {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-left: -419px;
+    }
+
+    .navbar.active {
+    animation: Muncul 1s ease;
+    }
+    @keyframes Muncul{
+    0% {
+        opacity: 0;
+        transform: scale(0);
+     }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+     }
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: #4169E1;
+        padding: 8px;
+    }
+
+
+/* =========================================
+   BERANDA HP
+=========================================*/
+
+    .otomasi {
+        background-image:
+        linear-gradient(
+            to right,
+            white 20%,
+            #4169E1 100%,
+            transparent
+        ),
+        url(otomasi.png);
+    }
+
+    .biodata2 {
+        width: 430px;
+        margin-left: -132px;
+    }
+
+
+/* =========================================
+   TUJUAN PKL HP
+=========================================*/    
+    
+    .kotak {
+        width: 97%;
+        height: 950px;
+        margin-left: 2%;
+    }
+
+    /* KOTAK1 */
+    .kotak1 {
+        width: 85%;
+        position: absolute;
+        margin-left: 5.5%;
+        margin-top: -930px;
+    }
+
+    /* KOTAK2 */
+    .kotak2 {
+        width: 85%;
+        position: absolute;
+        margin-left: 5.5%;
+        margin-top: -700px;
+    }
+
+    .kotak2 img {
+        margin-top: 90px;
+    }
+
+    .kotak2 p {
+        position: absolute;
+        margin-top: -17px;
+    }
+
+    /* KOTAK3 */
+    .kotak3 {
+        position: absolute;
+        width: 85%;
+        margin-left: 5.5%;
+        margin-top: -470px;
+    }
+
+    .kotak3 img {
+        margin-top: 90px;
+
+    }
+
+    .kotak3 p {
+        margin-top: -5px;
+        position: absolute;
+    }
+
+    /* KOTAK4 */
+    .kotak4 {
+        position: absolute;
+        width: 85%;
+        margin-left: 5.5%;
+        margin-top: -240px;
+    }
+
+    .kotak4 img {
+        margin-top: 90px;
+    }
+
+    .kotak4 p {
+        position: absolute;
+        margin-top: -10px;
+        margin-left: 5px;
+    }
+
+
+
+/* =========================================
+   PROFIL PERUSAHAAN HP
+=========================================*/    
+
+    .kotak5 {
+        width: 97%;
+        margin-left: 2%;
+        height: 1100px;
+    }
+
+    /* KOTAK6 */
+    .kotak6 {
+        position: absolute;
+        width: 88%;
+        height: 180px;
+        margin-left: 4%;
+        margin-top: -1090px;
+    }
+
+    .kotak6 img {
+        width: 90%;
+        margin-top: 1px;
+        margin-left: 6%;
+    }
+
+    /* KOTAK7 */
+    .kotak7 {
+        position: absolute;
+        width: 88%;
+        height: 600px;
+        margin-left: 4%;
+        margin-top: -890px;
+    }
+
+    .teks10 {
+        position: absolute;
+        margin-top: -542px;
+        margin-left: 53%;
+    }
+
+    .teks11 {
+        position: absolute;
+        margin-top: -428px;
+        margin-left: 53%;
+    }
+
+    .teks12 {
+        position: absolute;
+        margin-top: -313px;
+        margin-left: 25%;
+    }
+
+    .teks13 {
+        position: absolute;
+        margin-top: -197.5px;
+        margin-left: 25%;
+    }
+
+    .teks14 {
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 25%;
+    }
+
+    .isi {
+        line-height: 115px;
+        margin-left: 1%;
+        margin-top: -20px;
+    }
+
+
+    /* KOTAK8 */
+    .kotak8 {
+        position: absolute;
+        width: 88%;
+        margin-left: 4%;
+        margin-top: -270px;
+        height: 250px;
+    }
+
+    .p-produk2 {
+        display: none;
+    }
+
+    .Gedung10 {
+    position: relative;
+    top: -179.2px;
+    left: 0%;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+
+
+    -webkit-mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 10%,
+        black 70%,
+        black 100%
+    );
+
+    mask-image: linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 60%,
+        black 100%,
+        black 10%
+    );
+    
+    }
+
+
+
+/* =========================================
+   PEMBELAJARAN HP
+=========================================*/  
+
+    .kotak10 {
+        width: 93%;
+        margin-left: 2%;
+    }    
+
+    .geser {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 570px;
+    }
+
+    button {
+        color: white;
+    }
+
+    .dot {
+        width: 15px;
+        height: 15px;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        background-color: #4169e1;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .dot:hover {
+        transform: scale(1.2);
+    }
+
+    .dot.aktif {
+        height: 15px;
+        height: 15px;
+        transform: scale(1.2);
+        background-color: #0047AB;
+    }
+
+    .kotak12,
+    .kotak13 {
+        display: none;
+    }
+
+    .kotak11,
+    .kotak12,
+    .kotak13 {
+        position: absolute;
+        width: 300px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+   
+    
+/* =========================================
+   DOKUMENTASI HP
+=========================================*/  
+
+    .alas {
+        width: 93%;
+        margin-left: 2%;
+        height: 350px;
+    }
+
+    .alasan {
+        margin-left: 5%;
+    }
+
+    .alasan1 {
+        margin-left: 5%;
+        margin-top: 76.2%;
+    }
+
+    .alasan2 {
+        margin-left: 5%;
+        margin-top: 76.2%;
+    }
+
+    .alasan3 {
+        margin-left: 5%;
+        margin-top: 76.2%;
+    }
+
+    .alasan4 {
+        margin-left: 5%;
+        margin-top: 76.2%;
+    }
+
+    .alasan1,
+    .alasan2,
+    .alasan3,
+    .alasan4 {
+        display: none;
+    }
+
+    /* TITIK */
+    .titik-foto {
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+        z-index: 20;
+    }
+
+    .titik {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #4169e1;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .titik.aktif {
+        background-color: #0047AB;
+        transform: scale(1.2);
+    }
+
+    span {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+
+
+
+
+/* =========================================
+   DOKUMENTASI HP
+=========================================*/  
+
+    .ref {
+        margin-top: 160%;
+    }
+
+    .alasutama {
+        width: 93%;
+        margin-left: 2%;
+    }
+
+    .alasutama img {
+        width: 16%;
+        margin-top: 8%;
+    }
+
+    /* ALAS3 */
+    .alas3 {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .p-alas3 {
+        position: relative;
+        left: 8%;
+        top: 1%;
+    }
+
+    .pp-alas3 {
+        position: relative;
+        font-size: 15px;
+        max-width: 90%;
+        left: 8%;
+        margin-top: -4%;
+    }
+
+
+    /* ALAS4 */
+    .alas4 {
+        width: 92.5%;
+        margin-left: 4%;
+    }
+
+    .p-alas4 {
+        position: relative;
+        left: 8%;
+        top: 1%;
+    }
+
+    .pp-alas4 {
+        position: relative;
+        font-size: 15px;
+        left: 8%;
+        top: 3%;
+        max-width: 80%;
+    }
+
+
+    /* ALAS5 */
+    .alas5 {
+        width: 92.5%;
+        margin-left: 4%;
+    }
+
+    .p-alas5 {
+        position: relative;
+        max-width: 75%;
+        left: 8%;
+        top: 1%;
+    }
+
+    .pp-alas5 {
+        position: relative;
+        font-size: 15px;
+        max-width: 75%;
+        left: 8%;
+        top: 1%;
+    }
+
+    /* ALAS6 */
+    .alas6 {
+        width: 92.5%;
+        margin-left: 4%;
+    }
+
+    .p-alas6 {
+        position: relative;
+        max-width: 75%;
+        left: 8%;
+        top: 1%;
+    }
+
+    .pp-alas6 {
+        position: relative;
+        font-size: 15px;
+        max-width: 75%;
+        left: 8%;
+        top: -11%;
+    }
+
+
+    /* ALAS7 */
+    .alas7 {
+        width: 92.5%;
+        margin-left: 4%;
+    }
+
+    .p-alas7 {
+        position: relative;
+        max-width: 75%;
+        left: 8%;
+        top: 1%;
+    }
+
+    .pp-alas7 {
+        position: relative;
+        font-size: 15px;
+        max-width: 75%;
+        left: 8%;
+        top: -11%;
+    }
+
+    /* ALAS8 */
+    .alas8 {
+        width: 92.5%;
+        margin-left: 4%;
+    }
+
+    .p-alas8 {
+        position: relative;
+        max-width: 75%;
+        left: 8%;
+        top: 1%;
+    }
+
+    .pp-alas8 {
+        position: relative;
+        font-size: 15px;
+        max-width: 75%;
+        left: 8%;
+        top: -11%;
+    }
+
+
+
+
+/* =========================================
+   REFLEKSI HP
+=========================================*/  
+
+    .akhir {
+        height: 420px;
+    }
+
+    .penutup1 {
+        position: relative;
+        top: 20px;
+    }
+
+    .last {
+        position: relative;
+        margin-top: 30px;
+    }
+
+    .media {
+        position: relative;
+        top: 90px;
+        left: 20%;
+    }
+
+    .ig {
+        position: relative;
+        top: 80px;
+        left: 30%;
+    }
+
+    .kontak {
+        position: relative;
+        top: 250px;
+        left: -36%;
+    }
+
+    .kata2 {
+        position: relative;
+        top: 260px;
+        left: -65%;
+    }
+
+    .kontak1 {
+        display: none;
+    }
+
+    .kontak2 {
+        display: block;
+        position: relative;
+        top: 182px;
+        left: 32%;
+        line-height: 19.5px;
+    }
+
+
+
+}
