@@ -1654,6 +1654,26 @@ html {
         padding: 8px;
     }
 
+    /* Intro */
+
+    .intro img {
+        width: 29%;
+        height: 20%;
+        margin-left: 26%;
+        margin-top: 25%;
+    }
+
+    .p-1 {
+        margin-top: 30%;
+        margin-left: 42%;
+    }
+
+    .p-2 {
+        font-size: 15px;
+        max-width: 90%;
+        margin-left: 36%;
+    }
+
 
 /* =========================================
    BERANDA HP
